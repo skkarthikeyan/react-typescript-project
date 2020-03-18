@@ -1,0 +1,28 @@
+{
+    "extends": [
+      "tslint-config-airbnb"
+    ],
+    "rules": {
+      "import-name": false,
+      "variable-name": false,
+      "max-line-length": [
+        true,
+        120
+      ],
+      "ter-arrow-parens": [
+        true,
+        "as-needed"
+      ],
+      "brace-style": false,
+      "align": false,
+      "function-name": false,
+      "semicolon": [true, "always", "ignore-bound-class-methods"] 
+    },
+    "sort-imports": ["error", {
+      "ignoreCase": false,
+      "ignoreDeclarationSort": false,
+      "ignoreMemberSort": false,
+      "memberSyntaxSortOrder": ["none", "all", "multiple", "single"]
+    }]
+    
+  }
